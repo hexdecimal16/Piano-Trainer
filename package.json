@@ -18,11 +18,13 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "@tonaljs/tonal": "^4.6.5",
     "jzz": "^1.4.3",
     "jzz-input-kbd": "^1.2.1",
     "jzz-synth-tiny": "^1.2.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
+    "vexflow": "^3.0.9",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {

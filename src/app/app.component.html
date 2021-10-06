@@ -1,13 +1,1 @@
-<h1>Select MIDI</h1>
-
-<p>
-  MIDI In:
-  <select id="selectmidiin" (change)="onChangeInput($event)" (select)="selectedInput">
-    <option *ngFor="let input of inputs" [value]="input['name']">{{input['name']}}</option>
-  </select> &xrArr;
-  MIDI Out: <select id="selectmidiout" (select)="selectedOutput">
-    <option *ngFor="let output of outputs" [value]="output['name']">{{output['name']}}</option>
-  </select>
-</p>
-<p id=piano>
-<p>
+<router-outlet></router-outlet>

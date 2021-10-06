@@ -1,0 +1,12 @@
+<h1>Select MIDI</h1>
+
+<p>
+  MIDI In:
+  <select id="selectmidiin" (change)="onDropDownChange($event)" (select)="selectedInput">
+    <option *ngFor="let input of inputs" [value]="input['name']">{{input['name']}}</option>
+  </select>
+</p>
+<p id=piano>
+<p>
+
+<button routerLink="/sheet" >click me!</button>
